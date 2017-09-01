@@ -1,0 +1,75 @@
+2016-10-26 17:10:27 Error: [Cake\Database\Exception] Cannot describe view. It has 0 columns.
+Stack Trace:
+#0 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('view', Array)
+#1 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('view')
+#2 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#3 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#4 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'view', 'View')
+#6 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('View')
+#7 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('View')
+#8 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('View', 0)
+#9 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('View')
+#11 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#12 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /home/fundaepe/Documentos/emprestei-project/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-10-26 17:10:39 Error: [Cake\Database\Exception] Cannot describe view. It has 0 columns.
+Stack Trace:
+#0 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('view', Array)
+#1 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('view')
+#2 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#3 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#4 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'view', 'View')
+#6 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('View')
+#7 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('View')
+#8 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('View', 0)
+#9 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('view', 'Historicos')
+#11 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#12 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /home/fundaepe/Documentos/emprestei-project/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-10-26 17:10:47 Error: [Cake\Database\Exception] Cannot describe view. It has 0 columns.
+Stack Trace:
+#0 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('view', Array)
+#1 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('view')
+#2 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#3 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#4 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'view', 'View')
+#6 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('View')
+#7 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('View')
+#8 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('View', 0)
+#9 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('view', 'Historico')
+#11 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#12 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /home/fundaepe/Documentos/emprestei-project/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-11-03 18:18:15 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Migration" could not be found.
+Exception Attributes: array (
+  'class' => 'Migration',
+)
+Stack Trace:
+#0 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(223): Cake\Console\ShellDispatcher->findShell('Migration')
+#1 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /home/fundaepe/Documentos/emprestei-project/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /home/fundaepe/Documentos/emprestei-project/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+

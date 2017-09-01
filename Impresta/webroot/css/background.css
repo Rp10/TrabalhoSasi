@@ -1,0 +1,40 @@
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.feature_text{
+    z-index:100;
+    position: absolute;
+    color:black;
+    font-size:100px;
+    font-weight:bold;
+    left:30%;
+    top:0%;
+}
+
+.feature_button{
+    left:20%;
+    bottom:10%;
+    position:absolute;
+    padding: 21px 70px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.feature_button2 {
+    left: 70%;
+    bottom: 10%;
+    position: absolute;
+    padding: 21px 50px;
+    font-size: 20px;
+    color:gray;
+
+
+}
+
+h1{
+    text-align: right;
+}
+
